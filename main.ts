@@ -1,3 +1,11 @@
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    basic.showString("nº tarea y nombre")
+    basic.pause(100)
+    basic.showString("datos del alumn@")
+    basic.pause(100)
+    basic.showString("curso")
+    basic.pause(100)
+})
 input.onButtonPressed(Button.A, function () {
     for (let índice = 0; índice <= 180; índice++) {
         servos.P0.setAngle(índice)
